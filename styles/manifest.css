@@ -1,0 +1,74 @@
+.centeren {
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+details {
+    display: block;
+    border: none;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+}
+
+.kopjes {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    background-color: #F39595;
+    border: 3px white solid;
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.dark {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+   background-color: #913D3A;
+   border: 3px white solid;
+   color: white;
+     font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kopjes:hover {
+    background-color: #913D3A;
+    color: #F39595;
+    text-decoration: underline;
+}
+
+.dark:hover {
+    background-color: #F39595;
+    color: #913D3A;
+    text-decoration: underline;
+}
+
+.electro{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #913D3A;
+}
+
+.banger{
+font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #F39595;
+}
+
+
+
+
+
+
+
+details[open] summary {
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 0.5em;
+    justify-content: center;
+}
